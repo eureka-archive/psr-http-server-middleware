@@ -1,0 +1,24 @@
+{
+  "name": "eureka/psr-http-server-middleware",
+  "description": "Provides the MiddlewareInterface of PSR-15.",
+  "type": "library",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Psr\\Http\\Server\\": "./src"
+    }
+  },
+
+  "require": {
+    "psr/http-message": "^1.0",
+    "eureka/psr-http-server-handler": "^1.0"
+  }
+}
